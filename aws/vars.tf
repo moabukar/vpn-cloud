@@ -7,9 +7,9 @@ variable "region" {
 #   default = "europe-west2"
 # }
 
-# variable "vm_name" {
-#   default = "uk-vpn"
-# }
+variable "vm_name" {
+  default = "uk-vpn"
+}
 
 # variable "google_project_id" {
 #   description = "Project ID in GCP"
